@@ -604,10 +604,10 @@ ul {
   }
   .kompaniya {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
   }
   .kompaniya .company {
-    width: 160px;
+    width: 130px;
     height: 158px;
   }
   .google {

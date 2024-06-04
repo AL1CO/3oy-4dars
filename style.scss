@@ -543,10 +543,10 @@ ul {
   }
   .kompaniya {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
 
     .company {
-      width: 160px;
+      width: 130px;
       height: 158px;
     }
   }
