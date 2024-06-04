@@ -463,6 +463,12 @@ ul {
   .color {
     display: none;
   }
+  .photo1 {
+    display: none;
+  }
+  .photo2 {
+    display: block;
+  }
   .disko {
     padding-top: 100px;
   }
@@ -527,4 +533,4 @@ ul {
   .top__target {
     margin-top: 30px;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
