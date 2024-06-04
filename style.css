@@ -451,6 +451,38 @@ ul {
   margin: 30px 0;
 }
 
+.google {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.google-right {
+  max-width: 890px;
+}
+
+.right-left {
+  width: 300px;
+}
+
+.img-google {
+  margin-bottom: 66px;
+}
+
+.company {
+  margin-bottom: 40px;
+}
+
+.g-1 {
+  display: flex;
+  max-width: 890px;
+  gap: 50px;
+}
+
+.img-google {
+  width: 300px;
+}
+
 @media only screen and (max-width: 900px) {
   .con {
     max-width: 320px;
@@ -566,5 +598,26 @@ ul {
   }
   .abaut__text {
     margin-top: 50px;
+  }
+  .google-right {
+    display: block;
+  }
+  .kompaniya {
+    display: flex;
+    gap: 10px;
+  }
+  .kompaniya .company {
+    width: 160px;
+    height: 158px;
+  }
+  .google {
+    display: block;
+  }
+  .g-1 {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .img-google {
+    margin: 0;
   }
 }/*# sourceMappingURL=style.css.map */
