@@ -353,6 +353,11 @@ ul {
 }
 .instagram {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 40px;
 }
 .end-year {
   border-top: 1px solid #99999950;
@@ -419,10 +424,26 @@ ul {
 .img-google {
   width: 300px;
 }
+.insta-con {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 100px;
+}
+.text_abaut2 {
+  margin: 0;
+}
+
 @media only screen and (max-width: 900px) {
   .con {
     max-width: 320px;
     padding: 0 10px;
+  }
+  .instagram {
+    gap: 5px;
+  }
+  .ins-images {
+    width: 140px;
+    height: 140px;
   }
   .abaut__text {
     font-family: Rubik;
