@@ -338,8 +338,9 @@ ul {
 
 .color-end {
   background-color: #443e3e;
-  height: 590px;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 100px;
 }
 
 .sec__top {
@@ -400,13 +401,17 @@ ul {
   margin-bottom: 20px;
 }
 
-.instagram {
+.instagram2 {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 24px;
   margin-top: 40px;
+}
+
+.instagram {
+  margin-bottom: 20px;
 }
 
 .end-year {
@@ -498,10 +503,124 @@ ul {
   margin: 0;
 }
 
+.categors {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.categors img {
+  transition: 1s;
+}
+
+.categors:hover img {
+  transform: scale(1.1);
+}
+
+.quesion {
+  max-width: 700px;
+  height: 340px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.center {
+  max-width: 490px;
+}
+
+.q__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.color--3 {
+  background-image: url("./IMAGE/bg_color3.png");
+  height: 374.39px;
+  max-width: 1200px;
+  padding: 50px 100px;
+}
+
+.kere2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42.66px;
+}
+
+.paragrf--color__3 {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.btn-input {
+  background-color: #e81212;
+  color: #fff;
+  width: 160px;
+  height: 44px;
+  border: 0;
+}
+
+.inputs-text {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #cccccc;
+}
+
+input {
+  max-width: 260px;
+  height: 41px;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #cccccc;
+  margin-top: 5px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 53px;
+  align-items: end;
+}
+
 @media only screen and (max-width: 900px) {
   .con {
-    max-width: 320px;
+    max-width: 330px;
     padding: 0 10px;
+  }
+  .color--3 {
+    height: 603px;
+  }
+  btn-input {
+    margin-top: 20px;
+  }
+  form {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .inputs-text {
+    text-align: center;
+  }
+  .categors {
+    justify-content: center;
+  }
+  .categors img {
+    width: 260px;
   }
   .instagram {
     gap: 5px;
