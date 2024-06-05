@@ -606,7 +606,10 @@ form {
   .color--3 {
     height: 603px;
   }
-  btn-input {
+  .text-input {
+    margin-bottom: 20px;
+  }
+  .btn-input {
     margin-top: 20px;
   }
   form {
@@ -697,6 +700,9 @@ form {
   .imeges {
     margin-top: 50px;
   }
+  .color--3 {
+    padding-top: 50px;
+  }
   .img__images {
     width: 265px;
     height: 200px;
@@ -706,6 +712,9 @@ form {
   }
   .sec__top {
     display: block;
+  }
+  .top__target {
+    text-align: center;
   }
   .top__contact {
     text-align: center;
@@ -736,12 +745,10 @@ form {
   }
   .top__target {
     margin-top: 30px;
+    width: 310px;
   }
   .CONTACKT {
     display: block;
-  }
-  .abaut__text {
-    margin-top: 50px;
   }
   .google-right {
     display: block;
